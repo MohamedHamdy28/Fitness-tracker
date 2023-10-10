@@ -1,0 +1,38 @@
+name: soar_quest
+description: A framework to build Telegram Mini Apps with Flutter.
+
+homepage: https://soar.quest
+repository: https://github.com/ElBatanony/soar_quest
+issue_tracker: https://github.com/ElBatanony/soar_quest/issues
+
+version: 0.8.0
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  barcode_widget: ^2.0.3
+  cloud_firestore: ^4.9.2
+  collection: ^1.17.2
+  firebase_auth: ^4.10.1
+  firebase_core: ^2.16.0
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+  flutter_map: ^5.0.0
+  flutter_quill: ^7.4.7
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  latlong2: ^0.9.0
+  mobile_scanner: ^3.0.0-beta.4
+  path_provider: ^2.0.11
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.5
+  uuid: ^4.1.0
+  youtube_player_iframe: ^4.0.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
